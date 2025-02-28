@@ -1,0 +1,17 @@
+package com.ty;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Student {
+
+	private Long sid;
+	
+	private String name;
+	
+	private Long phone;
+	
+	private String std;
+	
+	
+}
