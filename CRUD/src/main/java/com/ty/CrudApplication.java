@@ -66,16 +66,44 @@ public class CrudApplication {
 //		service.save(employee);
 //		System.out.println("saved");
 		
-		List<Employee> emps = service.pagination(1);// i need to start it from page 1.
+//		List<Employee> emps = service.pagination(4);// i need to start it from page 1.
+//		
+//		System.out.println("-----------Emps----------");
+//		for (Employee employee : emps) {
+//			System.out.println("Eid : "+employee.getEid());
+//			System.out.println("Name : "+employee.getName());
+//			System.out.println("Email : "+employee.getEmail());
+//			System.out.println("Salary : "+employee.getSalary());
+//			System.out.println("==========================");
+//		}
+		
+//		List<Employee> employees = service.sort("name");
+//		
+//		System.out.println("-----------Emps----------");
+//		for (Employee employee : employees) {
+//			System.out.println("Eid : "+employee.getEid());
+//			System.out.println("Name : "+employee.getName());
+//			System.out.println("Email : "+employee.getEmail());
+//			System.out.println("Salary : "+employee.getSalary());
+//			System.out.println("==========================");
+//		}
+		
+		
+		Employee emp=new Employee();
+//		emp.setName("C");
+//		emp.setEmail("c@gmail.com");
+		emp.setSalary(10000.0);
+		
+		List<Employee> employees = service.filter(emp);
+		
 		System.out.println("-----------Emps----------");
-		for (Employee employee : emps) {
+		for (Employee employee : employees) {
 			System.out.println("Eid : "+employee.getEid());
 			System.out.println("Name : "+employee.getName());
 			System.out.println("Email : "+employee.getEmail());
 			System.out.println("Salary : "+employee.getSalary());
 			System.out.println("==========================");
 		}
-		
 	}
 
 }
