@@ -9,7 +9,7 @@
 <body>
  <h1>This is Index Page</h1>
  
- <form action="read" method="post">
+ <form action="read">
  	Name : <input type="text" name="un"><br>
  	Email : <input type="email" name="ue"><br>
  	<input type="submit" value="Submit">
