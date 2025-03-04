@@ -40,6 +40,8 @@ public class UserController {
 		user.setPassword(password);
 		user.setPhone(ph);
 		
+		int a=10/0;
+		
 		boolean isReg = userService.saveUser(user);
 		
 		if (isReg) {
