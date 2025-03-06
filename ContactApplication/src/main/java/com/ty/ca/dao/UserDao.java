@@ -22,4 +22,9 @@ public class UserDao {
 		User save = userRepo.save(user);
 		return save!=null;
 	}
+
+	public User getByUid(Integer uid) {
+		User user = userRepo.findById(uid).get();
+		return user;
+	}
 }

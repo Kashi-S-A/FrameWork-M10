@@ -29,7 +29,7 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-link active" aria-current="page" href="#">Add</a>
+						<a class="nav-link active" aria-current="page" href="add">Add</a>
 					</div>
 				</div>
 			</div>
@@ -59,13 +59,14 @@
 					<td><%=contact.getName()%></td>
 					<td><%=contact.getPhone()%></td>
 					<td><%=contact.getAdharNo()%></td>
+					<td><a href="update?cid=<%=contact.getCid()%>">update</a></td>
 				</tr>
 				<%
 				}
 				%>
 			</tbody>
 		</table>
-
+		<a href="#">Logout</a>
 	</div>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -9,4 +9,6 @@ public interface UserService {
 	boolean login(String email, String password);
 
 	User getUserByEmail(String email);
+
+	User getById(Integer uid);
 }

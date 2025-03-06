@@ -44,4 +44,10 @@ public class UserServiceImp implements UserService {
 		Optional<User> opt = userDao.findByEmail(email);
 		return opt.get();
 	}
+
+	@Override
+	public User getById(Integer uid) {
+		User user = userDao.getByUid(uid);
+		return user;
+	}
 }
