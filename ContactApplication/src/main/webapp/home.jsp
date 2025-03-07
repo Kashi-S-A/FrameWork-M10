@@ -60,13 +60,14 @@
 					<td><%=contact.getPhone()%></td>
 					<td><%=contact.getAdharNo()%></td>
 					<td><a href="update?cid=<%=contact.getCid()%>">update</a></td>
+					<td><a href="delete?cid=<%=contact.getCid()%>">Delete</a></td>
 				</tr>
 				<%
 				}
 				%>
 			</tbody>
 		</table>
-		<a href="#">Logout</a>
+		<a href="logout">Logout</a>
 	</div>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

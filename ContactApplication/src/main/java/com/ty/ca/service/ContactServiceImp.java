@@ -7,7 +7,7 @@ import com.ty.ca.dao.ContactDao;
 import com.ty.ca.entity.Contact;
 
 @Service
-public class ContactServiceImp implements ContactService{
+public class ContactServiceImp implements ContactService {
 
 	@Autowired
 	private ContactDao contactDao;
@@ -22,5 +22,11 @@ public class ContactServiceImp implements ContactService{
 	public Contact findById(Integer cid) {
 		Contact contact = contactDao.findById(cid);
 		return contact;
+	}
+
+	@Override
+	public boolean deleteContact(Integer cid) {
+		boolean result = contactDao.deleteContact(cid);
+		return result;
 	}
 }

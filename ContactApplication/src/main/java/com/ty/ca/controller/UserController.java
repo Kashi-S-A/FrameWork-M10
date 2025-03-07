@@ -160,5 +160,38 @@ public class UserController {
 
 		return mv;
 	}
+	
+	@GetMapping("/delete")
+	public ModelAndView deleteContact(@RequestParam String cid) {
+		
+		Integer contactId=Integer.parseInt(cid);
+		
+		ModelAndView mv = new ModelAndView("home.jsp");
+		
+		Contact dbContact = contactService.findById(contactId);
 
+		mv.addObject("contacts", dbContact.getUser().getContacts());
+		
+		boolean result = contactService.deleteContact(contactId);
+
+		if (result) {
+			mv.addObject("msg", "Contact deleted successfully");
+		} else {
+			mv.addObject("msg", "Failed to delete contact");
+		}
+
+		return mv;
+	}
+	
+	@GetMapping("/logout")
+	public String logout(HttpServletRequest request) {
+		
+		HttpSession session = request.getSession(false);
+		
+		session.invalidate();//delete the session
+		
+		return "login.jsp";
+	}
+	
+	
 }

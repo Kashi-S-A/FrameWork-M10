@@ -42,7 +42,7 @@
 
 		</form>
 
-		<a href="#">Logout</a>
+		<a href="logout">Logout</a>
 
 	</div>
 

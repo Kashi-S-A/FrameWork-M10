@@ -1,5 +1,7 @@
 package com.ty.ca.dao;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -20,5 +22,17 @@ public class ContactDao {
 	public Contact findById(Integer cid) {
 		Contact contact = contactRepo.findById(cid).get();
 		return contact;
+	}
+
+	public boolean deleteContact(Integer cid) {
+		
+		Optional<Contact> opt = contactRepo.findById(cid);
+		
+		if (opt.isPresent()) {
+			contactRepo.deleteById(cid);
+			return true;
+		} else {
+			return false;
+		}
 	}
 }

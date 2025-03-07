@@ -8,4 +8,6 @@ public interface ContactService {
 
 	Contact findById(Integer cid);
 
+	boolean deleteContact(Integer cid);
+
 }
