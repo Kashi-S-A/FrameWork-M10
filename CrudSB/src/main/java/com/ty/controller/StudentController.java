@@ -22,7 +22,15 @@ public class StudentController {
 	@Autowired
 	private StudentService studentService;
 	
-	@PostMapping("/save")
+	@PostMapping(value = "/save",consumes = {
+												"application/xml",
+												"application/json"
+											},
+							     produces = {
+												"application/xml",
+												"application/json"
+											}
+	)
 	public Student save(@RequestBody Student student) {
 		Student save = studentService.save(student);
 		return save;
