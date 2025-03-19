@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=CRUD/C:\/Users\/asus\/Downloads\/sts-4.24.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/21\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(ArithmeticException.class[ArithmeticException" modifiers="33" timestamp="1735652957444"/>
+    <typeInfo handle="=ContactApplication/C:\/Users\/asus\/.m2\/repository\/org\/springframework\/spring-web\/6.2.3\/spring-web-6.2.3.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-web=/=/maven.version=/6.2.3=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.http(HttpStatus.class[HttpStatus" modifiers="16433" timestamp="1740717880173"/>
+    <typeInfo handle="=ContactApplication/C:\/Users\/asus\/.m2\/repository\/org\/springframework\/spring-web\/6.2.3\/spring-web-6.2.3.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-web=/=/maven.version=/6.2.3=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.http(ResponseEntity.class[ResponseEntity" modifiers="33" timestamp="1740717880173"/>
 </typeInfoHistroy>
