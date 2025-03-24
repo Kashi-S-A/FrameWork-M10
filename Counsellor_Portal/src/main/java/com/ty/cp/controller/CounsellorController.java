@@ -55,9 +55,9 @@ public class CounsellorController {
 		return counsellorService.getEnquiries(cid);
 	}
 	
-	@DeleteMapping("/delete/{cid}")
-	public ResponseEntity<String> deleteCounsellor(@PathVariable Integer cid){
-		//TODO : Logic to delete counsellor by id
-	}
+//	@DeleteMapping("/delete/{cid}")
+//	public ResponseEntity<String> deleteCounsellor(@PathVariable Integer cid){
+//		//TODO : Logic to delete counsellor by id
+//	}
 	
 }

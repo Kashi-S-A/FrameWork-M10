@@ -5088,3 +5088,290 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2025-03-24 09:55:37.692 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-24 09:59:19.022
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-24 09:59:38.710
+!MESSAGE Logback config file: C:\Users\asus\Documents\M6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-24 09:59:41.706
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-24 09:59:41.707
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-24 09:59:43.694
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-24 09:59:43.695
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-24 09:59:58.805
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\asus\Downloads\sts-4.24.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\asus\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\asus\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\asus\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/asus/Documents/M6/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742790598801
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 09:59:58.805
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-24 09:59:58.843
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22384
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.706
+!MESSAGE Boot project ADDED: CRUD
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.707
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.710
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.712
+!MESSAGE Boot project ADDED: ContactApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.715
+!MESSAGE Boot project ADDED: Counsellor_Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.718
+!MESSAGE Boot project ADDED: CrudSB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.720
+!MESSAGE Boot project ADDED: EmailService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.721
+!MESSAGE Boot project ADDED: FirstMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.752
+!MESSAGE Boot project ADDED: FirstSBProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.754
+!MESSAGE Boot project ADDED: H2-DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.758
+!MESSAGE Boot project ADDED: ReadDataSB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.768
+!MESSAGE Boot project ADDED: SpringValidation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:00:04.770
+!MESSAGE Boot project ADDED: TestProject
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-24 10:00:05.042
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-03-24 10:16:08.757 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-24 10:19:54.794
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-03-24 10:20:20.260
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-24 10:20:22.839
+!MESSAGE Logback config file: C:\Users\asus\Documents\M6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-24 10:20:24.540
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-24 10:20:24.540
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-24 10:20:25.710
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-24 10:20:25.710
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-24 10:20:40.715
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\asus\Downloads\sts-4.24.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\asus\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\asus\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\asus\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/asus/Documents/M6/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742791840713
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:40.721
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-24 10:20:40.790
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11752
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.233
+!MESSAGE Boot project ADDED: CRUD
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.237
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.245
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.248
+!MESSAGE Boot project ADDED: ContactApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.252
+!MESSAGE Boot project ADDED: Counsellor_Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.259
+!MESSAGE Boot project ADDED: CrudSB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.262
+!MESSAGE Boot project ADDED: EmailService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.265
+!MESSAGE Boot project ADDED: FirstMVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.268
+!MESSAGE Boot project ADDED: FirstSBProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:43.270
+!MESSAGE Boot project ADDED: H2-DB
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-24 10:20:43.723
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:44.880
+!MESSAGE Boot project ADDED: ReadDataSB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:44.884
+!MESSAGE Boot project ADDED: SpringValidation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-24 10:20:44.917
+!MESSAGE Boot project ADDED: TestProject
+
+!ENTRY org.eclipse.jdt.core 4 2 2025-03-24 10:32:06.720
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1751)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1739)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1572)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1548)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2259)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2151)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-03-24 10:32:06.745
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1751)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1739)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1572)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1548)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2259)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2151)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-24 10:42:40.025
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-24 10:42:43.305
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-24 10:50:04.303
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-24 10:50:52.016
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)

@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
-    <fullyQualifiedTypeName name="com.ty.dto.Student"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-    <fullyQualifiedTypeName name="com.ty.service.StudentService"/>
-    <fullyQualifiedTypeName name="com.ty.repo.StudentRepo"/>
     <fullyQualifiedTypeName name="com.ty.entity.Student"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="com.ty.exception.StudentNotFound"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="com.ty.util.TestEnv"/>
@@ -50,14 +42,22 @@
     <fullyQualifiedTypeName name="com.ty.cp.service.EnquiryService"/>
     <fullyQualifiedTypeName name="com.ty.cp.repository.EnquriyRepo"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.ty.cp.service.CounsellorService"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="com.ty.cp.entity.Counsellor"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="com.ty.cp.dto.LoginDTO"/>
     <fullyQualifiedTypeName name="com.ty.cp.repository.CounsellorRepo"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="com.ty.cp.service.CounsellorService"/>
     <fullyQualifiedTypeName name="com.ty.cp.dto.CounsellorDTO"/>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="com.ty.cp.rs.ResponseStructure"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
     <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
-    <fullyQualifiedTypeName name="com.ty.cp.entity.Counsellor"/>
-    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 </qualifiedTypeNameHistroy>
